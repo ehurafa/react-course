@@ -8,13 +8,17 @@ import Fragment from './components/basic/Fragment'
 import RandomNumber from './components/basic/RandomNumber'
 import Card from './components/layout/Card'
 import Family from './components/basic/Family'
+import FamilyMember from './components/basic/FamilyMember'
 
 export default _ =>
         <div id="app">
             <h1>Fundamentos React</h1>
             <div className="cards">
                 <Card titulo="#5 Membros da família" background="brown">
-                    <Family surname="Ferreira"></Family>
+                    <Family surname="Ferreira">
+                        <FamilyMember name="Erik" surname="Gomes" />
+                        <FamilyMember name="Luiz" surname="Gomes" />
+                    </Family>
                 </Card>
 
                 <Card titulo="#4 Valor Aleatório" color="red" background="yellow">
