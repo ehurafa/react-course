@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #333;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
