@@ -9,11 +9,16 @@ import RandomNumber from './components/basic/RandomNumber'
 import Card from './components/layout/Card'
 import Family from './components/basic/Family'
 import FamilyMember from './components/basic/FamilyMember'
+import StudantList from './components/repeat/StudantList'
 
 export default _ =>
         <div id="app">
             <h1>Fundamentos React</h1>
             <div className="cards">
+                <Card titulo="#6 Lista de Alunos" background="grey">
+                   <StudantList></StudantList>
+                </Card>
+
                 <Card titulo="#5 Membros da família" background="brown">
                     <Family surname="Ferreira">
                         <FamilyMember name="Erik" surname="Gomes" />
